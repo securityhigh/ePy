@@ -1,4 +1,4 @@
-# github.com/eBind/pyAli
+# github.com/eBind/ePy
 
 import requests
 from enum import Enum
