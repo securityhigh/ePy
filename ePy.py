@@ -1,4 +1,4 @@
-# github.com/eBind/ePy
+# github.com/secwayz/ePy
 
 import requests
 
