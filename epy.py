@@ -24,7 +24,7 @@ class api:
         self.access_token = ''
         self.refresh_token = ''
 
-        
+
     def auth(self, client_id, client_secret):
         """
         Authorize method with client- SECRET and ID
@@ -43,7 +43,7 @@ class api:
 
         return self.access_token
 
-    
+
     def token_refresh(self):
         """
         Refresh the token function
@@ -60,7 +60,7 @@ class api:
 
         return self.refresh_token
 
-    
+
     def ssid(self):
         """
         Get SSID for access to API
@@ -72,7 +72,7 @@ class api:
                                 headers={'X-API-VERSION': '2'})
         return response.json()["data"]["attributes"]["ssid_token"]
 
-    
+
     def short_link(self, link, cutter="ali.pub"):
         """
         Create a short link from full partner link
@@ -88,7 +88,7 @@ class api:
 
         return response.json()["data"]["attributes"][0]["result"]
 
-    
+
     def create_link(self, source_link):
         """
         Create a partner link
