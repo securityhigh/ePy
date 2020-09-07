@@ -8,10 +8,10 @@ Find end link, example: adf.ly/qGB -> example.com/index.php
 Authorization epn.bz with clients ID and SECRET.
 Return access token.
 
-#### (system) api.token_refresh()
+#### (service) api.token_refresh()
 Get refresh_token.
 
-#### (system) api.ssid()
+#### (service) api.ssid()
 Get SSID key for access API.
 
 #### (use) api.short_link(link, cutter)
