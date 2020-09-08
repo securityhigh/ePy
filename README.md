@@ -35,7 +35,7 @@ ali.auth(client_id, client_secret)
 long_link = ali.create_link(aliexpress_link)
 short_link = ali.short_link(long_link)
 
-print(short_link)  # output ali.pub link
+print(short_link)  # this ali.pub link
 ```
 
 # Contact us
