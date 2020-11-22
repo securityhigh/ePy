@@ -39,5 +39,5 @@ print(short_link)  # this ali.pub link
 ```
 
 # Contact us
-Telegram: https://t.me/secwayz
+Telegram: https://t.me/theovnl
 
