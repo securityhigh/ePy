@@ -37,7 +37,3 @@ short_link = ali.short_link(long_link)
 
 print(short_link)  # this ali.pub link
 ```
-
-# Contact us
-Telegram: https://t.me/theovnl
-
